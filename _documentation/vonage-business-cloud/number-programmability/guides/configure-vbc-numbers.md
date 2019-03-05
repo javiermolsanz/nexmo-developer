@@ -6,4 +6,4 @@ navigation_weight: 2
 
 # Configure Your VBC Numbers
 
-**I am not yet sure how this works**
+**Waiting on production version of app I can connect to**
