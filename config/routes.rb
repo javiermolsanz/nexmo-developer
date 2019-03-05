@@ -16,6 +16,7 @@ Rails.application.routes.draw do
   end
 
   get '/robots.txt', to: 'static#robots'
+  get '/jwt', to: 'static#jwt'
 
   get '/*landing_page', to: 'static#default_landing', constraints: LandingPageConstraint.matches?
 
@@ -84,6 +85,8 @@ Rails.application.routes.draw do
 
   get '/api/*definition(/:code_language)', to: 'open_api#show', as: 'open_api', constraints: OpenApiConstraint.products
   get '/api/*document(/:code_language)', to: 'api#show', constraints: DocumentationConstraint.code_language
+
+  get '/task/(:task_name)(/*task_step)(/:code_language)', to: 'task#index', constraints: CodeLanguageResolver.route_constraint
 
   get '/*product/api-reference', to: 'markdown#api'
 
