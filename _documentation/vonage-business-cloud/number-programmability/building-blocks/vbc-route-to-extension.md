@@ -14,7 +14,7 @@ The following example shows how to receive the inbound call and immediately forw
 You achieve this with a `connect` [action](/voice/voice-api/ncco-reference#connect) in the Nexmo Call Control Object (NCCO). Create an `endpoint` with a type of `vbc` and the `extension` you want to forward the call to.
 
 ```building_blocks
-source: '_examples/vbc/connect-to-extension'
+source: '_examples/vonage-business-cloud/number-programmability/vbc-route-to-extension'
 application:
   type: voice
   name: 'Connect to VBC Extension Example'
