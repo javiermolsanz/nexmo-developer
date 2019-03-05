@@ -3,7 +3,6 @@ title: Node
 language: node
 dependencies:
     - express
-    - body-parser
 code:
     source: .repos/nexmo-community/nexmo-node-quickstart/vbc/connect-to-extension.js
     from_line: 6
