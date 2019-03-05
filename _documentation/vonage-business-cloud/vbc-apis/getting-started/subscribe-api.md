@@ -16,4 +16,4 @@ Now that you have created your Application and configured authentication, you ca
 
 ![Screenshot showing how to subscribe your Application to the API](/assets/images/vbc/subscribe-api.png)
 
-Your Application now has the correct privileges to use this API. Look at the Building Blocks for each API to learn how to use it.
+By subscribing to the VBC-Provisioning API, your Application now has the correct privileges to use the Account, Extension and User APIs. Look at the Building Blocks for each API to learn how to use it.
