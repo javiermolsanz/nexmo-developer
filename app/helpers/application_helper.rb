@@ -7,9 +7,7 @@ COLLAPSIBLE = ['Messages API', 'Dispatch API', 'Messaging', 'SMS', 'Conversion A
 
 module ApplicationHelper
   def search_enabled?
-    return false unless defined? ALGOLIA_CONFIG
-    return false unless ENV['ALGOLIA_SEARCH_KEY']
-    true
+    defined?(ALGOLIA_CONFIG) && ENV['ALGOLIA_SEARCH_KEY']
   end
 
   def theme
@@ -131,6 +129,11 @@ module ApplicationHelper
       unless flatten
         url = (child[:is_file?] ? path_to_url(child[:path]) : first_link_in_directory(child[:children]))
         has_active_class = (active_path == url) || active_path.start_with?("#{url}/")
+
+        # Handle tutorials
+        if @navigation == :tutorials
+          has_active_class = url == "/#{@product}/tutorials"
+        end
 
         if !child[:is_file?]
           if context.first[:children]
