@@ -1,0 +1,25 @@
+title: Getting started
+description: Blah
+product: client-sdk
+
+introduction:
+  title: Getting started with X
+  description: How does the Nexmo
+  content: |
+    The Nexmo Client SDK ....
+
+    More blah.
+
+tasks:
+  - client-sdk/getting-started/jwt-acl
+  - client-sdk/getting-started/generate-test-credentials
+  - client-sdk/getting-started/set-up-push-notifications
+  - client-sdk/getting-started/add-sdk-to-your-app
+
+conclusion:
+  title: What's next?
+  description: What else can you do with the Client SDK?
+  content: |
+    Congratulations! You just made your first blah.
+
+    How about taking a look at blah...

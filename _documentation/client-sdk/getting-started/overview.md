@@ -5,6 +5,8 @@ navigation_weight: 0
 
 # Overview
 
+[Test task](/task/client-sdk-getting-started)
+
 The suggested order for learning In-App Voice is as follows:
 
 1. [Generate test credentials (all platforms)](/client-sdk/getting-started/generate-test-credentials).

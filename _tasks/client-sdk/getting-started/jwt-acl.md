@@ -76,6 +76,10 @@ In the previous section, you can see that the `acl` claim has `paths` object con
 
 It is not necessary to provide users with the permissions to access all of these paths. For instance, if a user was not going to upload or receive push notifications, you could create a JWT without including the `/v1/applications/**`or `/v1/push/**` paths.
 
+## JWT Generator web page
+
+There is a [web page](https://developer.nexmo.com/jwt) you can use to generate JWTs quickly and easily.
+
 ## Nexmo Client Libraries
 
 ### CLI
