@@ -30,7 +30,7 @@ The Android and iOS Client SDKs additionally offer:
 
 ## Getting started
 
-See the [Getting Started](/client-sdk/getting-started/overview) section.
+See the [Getting Started Guide](/task/client-sdk-getting-started).
 
 ## Concepts
 

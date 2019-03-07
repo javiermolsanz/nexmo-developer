@@ -1,7 +1,6 @@
 ---
 title: How to Understand the Lifecycle of Call Statuses
 description: Information about call statuses such as `ringing`, `answered` and so on.
-navigation_weight: 2
 ---
 
 # How to Understand the Lifecycle of Call Statuses

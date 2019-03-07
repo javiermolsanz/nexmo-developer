@@ -1,7 +1,6 @@
 ---
 title: Enable Audio
 description: This topic shows how to enable audio features in a Conversation.
-navigation_weight: 4
 ---
 
 ```tabbed_content
