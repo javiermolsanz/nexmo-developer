@@ -9,7 +9,11 @@ description: This topic explains how to generate JWTs for use in your app. JSON 
 
 ### Overview
 
-The Nexmo Client SDKs use [JWTs](https://jwt.io/) for authentication when a user logs in. These JWTs are generated using the application ID and private key that is provided [when a new application is created.](/tutorials/client-sdk-generate-test-credentials#create-a-nexmo-application)
+The Nexmo Client SDKs use [JWTs](https://jwt.io/) for authentication when a user logs in. These JWTs are generated using the application ID and private key that is provided [when a new application is created](/tutorials/client-sdk-generate-test-credentials#create-a-nexmo-application).
+
+### JWT Generator web page
+
+There is a [web page](https://developer.nexmo.com/jwt) you can use to generate JWTs quickly and easily.
 
 ### Claims
 
@@ -74,10 +78,6 @@ In the previous section, you can see that the `acl` claim has `paths` object con
 | `/v1/applications/**`| Upload push notification certificate.|
 
 It is not necessary to provide users with the permissions to access all of these paths. For instance, if a user was not going to upload or receive push notifications, you could create a JWT without including the `/v1/applications/**`or `/v1/push/**` paths.
-
-## JWT Generator web page
-
-There is a [web page](https://developer.nexmo.com/jwt) you can use to generate JWTs quickly and easily.
 
 ## Nexmo Client Libraries
 
