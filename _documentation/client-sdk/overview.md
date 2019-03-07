@@ -37,7 +37,7 @@ If you want to communicate with Nexmo during the Early Access you can:
 
 ## Getting started
 
-See the [Getting Started Guide](/task/client-sdk-getting-started).
+See the [Getting Started Guide](/task/client-sdk-getting-started) to learn how to get started with the Nexmo Client SDK.
 
 ## SDK Documentation (generated from source code)
 

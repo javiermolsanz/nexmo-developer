@@ -30,7 +30,7 @@ The Android and iOS Client SDKs additionally offer:
 
 ## Getting started
 
-See the [Getting Started Guide](/task/client-sdk-getting-started).
+See the [Getting Started Guide](/task/client-sdk-getting-started) to learn how to get started with the Nexmo Client SDK.
 
 ## Concepts
 
