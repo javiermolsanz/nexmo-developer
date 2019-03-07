@@ -1,14 +1,14 @@
 title: Getting started
-description: Blah
+description: This task will show you how to get started with the Nexmo Client SDK.
 product: client-sdk
 
 introduction:
-  title: Getting started with X
-  description: How does the Nexmo
+  title: Getting started with Nexmo Client SDK
+  description: This task shows you how to get up and running with the Nexmo Client SDK.
   content: |
-    The Nexmo Client SDK ....
+    The Nexmo Client SDK for JavaScript, Android and iOS.
 
-    More blah.
+    Getting started with the Client SDK requires you to create JWTs, users, set up notofocations and then add the SDK to your app.
 
 tasks:
   - client-sdk/getting-started/jwt-acl
@@ -20,6 +20,7 @@ conclusion:
   title: What's next?
   description: What else can you do with the Client SDK?
   content: |
-    Congratulations! You just made your first blah.
+    Congratulations! You have now added the Client SDK to your app.
 
-    How about taking a look at blah...
+    How about taking a look at how your app can receive an inbound call.
+    
