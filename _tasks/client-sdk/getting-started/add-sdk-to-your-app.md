@@ -1,6 +1,5 @@
 ---
 title: How to Add the Nexmo Client SDK to your App
-navigation_weight: 3
 ---
 
 ```tabbed_content

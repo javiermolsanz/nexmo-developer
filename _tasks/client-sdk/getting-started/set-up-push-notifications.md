@@ -1,6 +1,6 @@
 ---
 title: How to Set Up Push Notifications
-navigation_weight: 2
+description: This task shows how to set up push notifications.
 ---
 
 ```tabbed_content

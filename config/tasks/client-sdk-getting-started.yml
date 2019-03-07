@@ -11,6 +11,8 @@ introduction:
     Getting started with the Client SDK requires you to create JWTs, users, set up notofocations and then add the SDK to your app.
 
 tasks:
+  - client-sdk/setup/install-cli-beta
+  - client-sdk/setup/create-nexmo-application
   - client-sdk/getting-started/jwt-acl
   - client-sdk/getting-started/generate-test-credentials
   - client-sdk/getting-started/set-up-push-notifications
@@ -23,4 +25,3 @@ conclusion:
     Congratulations! You have now added the Client SDK to your app.
 
     How about taking a look at how your app can receive an inbound call.
-    
