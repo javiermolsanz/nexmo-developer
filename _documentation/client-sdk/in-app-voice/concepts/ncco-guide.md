@@ -6,7 +6,6 @@ description: A guide on controlling voice calls using NCCOs.
 # How to use NCCOs to Control Voice Calling
 
 In this guide, we'll demonstrate how to set up a dynamic answer URL with a NCCO that will allow you to configure more complex call flows from within your application via the [Voice API](/voice/voice-api/overview). This includes the ability to make hybrid leg calls from your app (via WebRTC) to a phone (via PSTN) and vice versa. This guide will focus on making calls from your app to a PSTN phone.
->>>>>>> master:_documentation/client-sdk/in-app-voice/concepts/ncco-guide.md
 
 ## Concepts
 
