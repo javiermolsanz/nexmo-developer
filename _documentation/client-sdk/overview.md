@@ -21,26 +21,6 @@ Multiple types of Media are supported:
 
 The Client SDK provides a convenient layer over the Nexmo Conversation API and WebRTC.
 
-## In-App Messaging
-
-Build a feature-rich chat experience that includes typing indicators and sent, delivered and read receipts.
-
-Some features include:
-
-* Offline Sync – With built-in caching, messages are saved and sent or received once their device is back online.
-* Push Notifications – Keep users aware of important alerts by sending notifications to their device.
-* Text and Image Support – Users can quickly send and receive texts and images from your application.
-
-## In-App Voice
-
-Nexmo In-App Voice uses WebRTC and includes all the essentials you need to build a feature-rich voice experience.
-
-Some features include:
-
-* User Control – Users can control whether their audio stream is muted or unmuted.
-* Notifications  – Users can be notified when they receive a call or when participants are muted.
-* Group Calls – Configure call settings so users can start a group call by adding participants in real time.
-
 ## Participating in the Early Access programme
 
 This Early Access will focus on the In-App Voice capabilities. During this program, there will be frequent releases with new features and bug fixes based on your feedback. During the Early Access, it is possible that there shall be breaking changes to the SDK and API but these will be explicitly communicated beforehand.
@@ -50,12 +30,14 @@ If you want to communicate with Nexmo during the Early Access you can:
 * Join the [Nexmo community slack](https://developer.nexmo.com/community/slack/) and check out the [#nexmo-client-sdk](https://nexmo-community.slack.com/messages/C9H152ATW) channel.
 * Email [ea-support@nexmo.com](mailto:ea-support@nexmo.com) directly.
 
-## Next Steps
-
-Read more about:
+## Read more about
 
 * [In-App Messaging](/client-sdk/in-app-messaging/overview)
 * [In-App Voice](/client-sdk/in-app-voice/overview)
+
+## Getting started
+
+See the [Getting Started Guide](/task/client-sdk-getting-started).
 
 ## SDK Documentation (generated from source code)
 
