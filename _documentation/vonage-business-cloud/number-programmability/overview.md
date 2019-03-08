@@ -10,10 +10,10 @@ meta_title: Number programmability service
 The Vonage Business Cloud (VBC) Number Programmability service enables you to:
 
 * Forward a VBC call to a Nexmo [Voice API](/voice/voice-api/api-reference) application
-* Connect calls to a [VBC extension](/vonage-business-cloud/extension-api/guides/vbc-extension) from a Voice API [NCCO](/voice/voice-api/guides/ncco) without using a PSTN
+* Connect calls to a VBC extension from a Voice API [NCCO](/voice/voice-api/guides/ncco) without using a PSTN
 
 ## What can you do with it?
-You can use all the power and flexibility of the Nexmo Voice API together with the supporting VBC [Account](/vonage-business-cloud/account-api/api-reference), [Extension](/vonage-business-cloud/extension-api/api-reference) and [User](/vonage-business-cloud/user-api/api-reference) APIs to create fully customized call experiences for your customers, including:
+You can use all the power and flexibility of the Nexmo Voice API together with the supporting VBC [Account](/vonage-business-cloud/vbc-apis/account-api/overview), [Extension](/vonage-business-cloud/vbc-apis/extension-api/overview) and [User](/vonage-business-cloud/vbc-apis/user-api/overview) APIs to create fully customized call experiences for your customers, including:
 
 * Interactive voice response (IVR) systems that link to your CRM system to personalise the menu options to your customers' needs
 * Voicebots that use natural language processing and/or AI to answer simple questions spoken by your customers
@@ -30,20 +30,20 @@ To use the Number Programmability service, you need:
 
 You must then:
 
-1. [Add the Number Programmability service]() to your VBC account
-2. [Configure the Number Programmability service]() with one or more VBC numbers
-3. [Create a Nexmo Voice API application]() to store security and configuration information
-4. [Link your VBC number(s)]() to the Voice API application
+1. [Register for the Number Programmability service](/vonage-business-cloud/number-programmability/guides/register) - to add the capability to your VBC account
+2. [Provision VBC numbers](https://nexmo-developer-vbc.herokuapp.com/vonage-business-cloud/number-programmability/guides/provision-vbc-numbers) - configure one or more VBC numbers to use with the service
+3. [Create a Nexmo Voice API Application](/vonage-business-cloud/number-programmability/guides/create-voice-application) - to store security and configuration information
+4. [Link your VBC number(s)](/vonage-business-cloud/number-programmability/guides/link-vbc-numbers) - to the Nexmo Voice API Application
 
 ## Using the Number Programmability service
 
 You will use the [Nexmo Voice API](/voice/voice-api/api-reference) to build interactive and customised call experiences for your users.
 
-To forward an inbound call on one of your linked VBC numbers to your Nexmo Voice API application, you create a [webhook]() endpoint in your code and configure the URL in your Nexmo account. This is so that Nexmo's APIs can alert your application when a call is received and ask for instructions on how to process the call.
+To forward an inbound call on one of your linked VBC numbers to your Nexmo Voice API Application, you create a [webhook](/concepts/guides/webhooks) endpoint in your code and configure the URL in your Nexmo account. This is so that Nexmo's APIs can alert your application when a call is received and ask for instructions on how to process the call.
 
-You provide these instructions in the form of a [Nexmo Call Control Object (NCCO)]() that defines the list of actions that the call must perform, such as reading a message to your caller using text-to-speech, or collecting input as part of an interactive voice response (IVR) system. Another type of action in the NCCO can route the call to a VBC extension.
+You provide these instructions in the form of a [Nexmo Call Control Object (NCCO)](/voice/voice-api/guides/ncco) that defines the list of actions that the call must perform, such as reading a message to your caller using text-to-speech, or collecting input as part of an interactive voice response (IVR) system. Another type of action (`connect`) in the NCCO can route the call to a VBC extension.
 
-We provide [client libraries](https://github.com/Nexmo/) in various languages that take make it easier to work with the Voice API. We also provide VBC-specific APIs that help you retrieve information about your VBC accounts, extensions and users. Visit the Guides and Building Blocks to get started.
+We provide [client libraries](https://github.com/Nexmo/) in various languages that take make it easier to work with the Voice API. We also provide VBC-specific APIs that help you retrieve information about your VBC accounts, extensions and users. Visit the Guides and Building Blocks in the [VBC APIs ](/vonage-business-cloud/vbc-apis/overview) section to get started.
 
 ## Guides
 
@@ -57,17 +57,8 @@ product: vonage-business-cloud/number-programmability
 product: vonage-business-cloud/number-programmability
 ```
 
-## Tutorials
-
-```tutorials
-product: vonage-business-cloud/number-programmability
-```
-
 ## Reference
 
 * [Voice API Reference](/api/voice)
 * [NCCO Reference](/voice/voice-api/ncco-reference)
 * [Webhook Reference](/voice/voice-api/webhook-reference)
-
-
-
