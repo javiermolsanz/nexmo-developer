@@ -65,6 +65,9 @@
 "/sdk/client-sdk/ios": "/sdk/stitch/ios/"
 "/sdk/client-sdk/javascript": "/sdk/stitch/javascript/"
 
+# Client SDK main landing page
+"/client-sdk": "/client-sdk/overview"
+"/client-sdk/landing": "/client-sdk/overview"
 
 # Conversation API
 

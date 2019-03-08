@@ -1,0 +1,19 @@
+
+title: "Welcome to the Nexmo Client SDK"
+meta_title: "This is the Nexmo Client SDK for JavaScript, Android, and iOS, for voice and messaging applications."
+
+page:
+  - row:
+    - column: 
+      - type: header
+        header:
+          title: 
+            text: "Welcome to the Nexmo Client SDK"
+            align: center
+          subtitle:
+            text: "This is the Nexmo Client SDK for JavaScript, Android, and iOS, for voice and messaging applications."
+            align: center
+            type: large
+          icon: 
+            name: "icon-star"
+            color: "yellow"
