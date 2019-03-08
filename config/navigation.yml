@@ -102,9 +102,9 @@ navigation_overrides:
     svgColor: 'teal'
     label: 'Developer Preview'
   vonage-business-cloud:
-    svg: 'phone'
-    svgColor: 'red'   
-    label: 'Beta'    
+    svg: 'telephone'
+    svgColor: 'green'
+    label: 'Beta'
   contribute:
     administration:
       navigation_weight: 9999
