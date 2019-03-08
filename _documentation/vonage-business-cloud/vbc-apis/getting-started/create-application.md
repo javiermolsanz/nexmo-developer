@@ -12,7 +12,7 @@ To work with the Vonage Business Cloud APIs, you need to create an Application.
 
 ## Create a new Application
 
-1. Sign into [Vonage UC Extend](https://developer.vonage.com/store/) using your Vonage Business Cloud credentials and select "Other" from the Platform drop down list.
+1. Sign into [Vonage UC Extend](https://developer.vonage.com/store/) using your Vonage Business Cloud credentials and select "Vonage Business Cloud" from the Platform drop down list.
 
 2. Select "My Applications" from the left-hand navigation menu.
 
