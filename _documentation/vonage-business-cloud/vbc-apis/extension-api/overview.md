@@ -6,7 +6,7 @@ meta_title: Extension API
 
 The Extension API is a read-only API that lets you retrieve information about extensions.
 
-Using the Extensikon API in your applications, you can:
+Using the Extension API in your applications, you can:
 
 * Retrieve details for a specific extension
 * List all the extensions associated with an account
@@ -15,11 +15,11 @@ Using the Extensikon API in your applications, you can:
 
 To use the Extension API you must:
 
-* [Create a VBC application](/vonage-business-cloud/vbc-apis/getting-started/create-application)
+* [Create a VBC Application](/vonage-business-cloud/vbc-apis/getting-started/create-application)
 * [Configure authentication for your application](/vonage-business-cloud/vbc-apis/getting-started/authentication)
-* [Subscribe your application to the Extension API](/vonage-business-cloud/vbc-apis/getting-started/subscribe)
+* [Subscribe to the Provisioning API](/vonage-business-cloud/vbc-apis/getting-started/subscribe-api)
 
-Once you have created an application and subscribed to the Extension API, refer to the other resources on this page to learn how to use it.
+Once you have created an Application and subscribed to the Extension API, refer to the other resources on this page to learn how to use it.
 
 
 ## Building Blocks
