@@ -16,7 +16,7 @@ Dir.glob("#{Rails.root}/config/tasks/*.yml") do |filename|
     path: p,
     title: t['title'],
     is_file?: true,
-    is_task?: true
+    is_task?: true,
   })
 
   TASK_TITLES[p] = t['title']
@@ -62,7 +62,7 @@ module ApplicationHelper
     product = path.gsub(%r{.*#{@namespace_root}/}, '')
     if DocumentationConstraint.product_with_parent_list.include? product
       if TASKS[product]
-        data[:children] << { title: 'tasks', path: ".#{product}/tasks", children: TASKS[product]}
+        data[:children] << { title: 'tasks', path: ".#{product}/tasks", children: TASKS[product] }
       end
     end
 
@@ -223,7 +223,7 @@ module ApplicationHelper
 
   def document_meta(path)
     if path.include? '/task/'
-      return {'title' => TASK_TITLES[path.gsub('/task/', '')]}
+      return { 'title' => TASK_TITLES[path.gsub('/task/', '')] }
     end
     YAML.load_file(path)
   end
