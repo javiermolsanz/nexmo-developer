@@ -32,7 +32,7 @@ The response is a JSON object containing details about the extension. See the [A
          "location_id":1111111,
          "vtt_enabled":false,
          "dnd_enabled":true,
-         "caller_id":14155550100,
+         "caller_id":"14155550100",
          "block_caller_id":false,
          "dids":[
 
