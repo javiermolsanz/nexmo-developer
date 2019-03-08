@@ -66,8 +66,7 @@
 "/sdk/client-sdk/javascript": "/sdk/stitch/javascript/"
 
 # Client SDK main landing page
-"/client-sdk": "/client-sdk/overview"
-"/client-sdk/landing": "/client-sdk/overview"
+"/client-sdk": "/client-sdk/landing"
 
 # Conversation API
 

@@ -8,7 +8,7 @@ page:
       - type: header
         header:
           title: 
-            text: "Welcome to the Nexmo Client SDK"
+            text: "Welcome to the Nexmo Client SDK landing page"
             align: center
           subtitle:
             text: "This is the Nexmo Client SDK for JavaScript, Android, and iOS, for voice and messaging applications."
@@ -17,6 +17,19 @@ page:
           icon: 
             name: "icon-star"
             color: "yellow"
+  - row:
+    - column: 
+      - type: structured_text
+        structured_text:
+          header: Overview
+          text:
+            - content: Nexmo Client SDK is a _conversation-centric_ product consisting of iOS, Android, and JavaScript.
+              type: small
+  - row:
+    - column: 
+      - type: text
+        text:
+            content: Nexmo Client SDK is a conversation-centric product consisting of iOS, Android, and JavaScript.
   - row:
     - column:
       - type: call_to_action
@@ -27,3 +40,9 @@ page:
             name: "icon-design-tools"
             color: "blue-dark"
           url: /task/client-sdk-getting-started/introduction
+  - row:
+    - column:
+      - type: tutorial
+        tutorial:
+          name: client-sdk-android-make-receive-calls
+
