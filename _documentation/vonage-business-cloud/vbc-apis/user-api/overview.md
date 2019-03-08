@@ -15,7 +15,6 @@ Using the User API in your applications, you can:
 
 To use the User API you must:
 
-* Sign up for a UC Extend account ???
 * [Create a VBC application](/vonage-business-cloud/vbc-apis/getting-started/create-application)
 * [Configure authentication for your application](/vonage-business-cloud/vbc-apis/getting-started/authentication)
 * [Subscribe your application to the User API](/vonage-business-cloud/vbc-apis/getting-started/subscribe)

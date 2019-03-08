@@ -22,4 +22,4 @@ To work with the Vonage Business Cloud APIs, you need to create an Application.
 
     ![Screenshot showing the Add Application dialog](/assets/images/vbc/create-application.png)
 
-Now that you have created your Application, you need to [set up authentication](/vonage-business-cloud/account/guides/authentication) for it to use the Account API.
+> Now that you have created your Application, you need to [configure authentication](/vonage-business-cloud/vbc-apis/getting-started/authentication) to enable it to use the VBC APIs.
