@@ -17,3 +17,13 @@ page:
           icon: 
             name: "icon-star"
             color: "yellow"
+  - row:
+    - column:
+      - type: call_to_action
+        call_to_action:
+          title: Getting Started Guide
+          subtitle: Shows you how to get started with the Nexmo Client SDK.
+          icon: 
+            name: "icon-design-tools"
+            color: "blue-dark"
+          url: /task/client-sdk-getting-started/introduction
