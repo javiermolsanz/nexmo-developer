@@ -6,8 +6,8 @@ FLATTEN_TREES = [].freeze
 COLLAPSIBLE = ['Messages API', 'Dispatch API', 'Messaging', 'SMS', 'Conversion API', 'SNS', 'US Short Codes', 'Voice', 'Number Insight', 'Account', 'Global', 'SIP', 'Voice API'].freeze
 
 # What tasks do we have available?
-TASKS = {}
-TASK_TITLES = {}
+TASKS = {} # rubocop:disable Style/MutableConstant
+TASK_TITLES = {} # rubocop:disable Style/MutableConstant
 Dir.glob("#{Rails.root}/config/tasks/*.yml") do |filename|
   t = YAML.load_file(filename)
   TASKS[t['product']] = [] unless TASKS[t['product']]
