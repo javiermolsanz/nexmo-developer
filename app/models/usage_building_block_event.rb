@@ -1,2 +1,3 @@
 class UsageBuildingBlockEvent < ApplicationRecord
+
 end
