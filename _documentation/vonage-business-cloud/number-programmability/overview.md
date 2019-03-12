@@ -10,7 +10,7 @@ meta_title: Number programmability service
 The Vonage Business Cloud (VBC) Number Programmability service enables you to:
 
 * Forward a VBC call to a Nexmo [Voice API](/voice/voice-api/api-reference) application
-* Connect calls to a VBC extension from a Voice API [NCCO](/voice/voice-api/guides/ncco) without using a PSTN
+* Connect calls to a VBC extension from a Voice API [NCCO](/voice/voice-api/guides/ncco)
 
 ## What can you do with it?
 You can use all the power and flexibility of the Nexmo Voice API together with the supporting VBC [Account](/vonage-business-cloud/vbc-apis/account-api/overview), [Extension](/vonage-business-cloud/vbc-apis/extension-api/overview) and [User](/vonage-business-cloud/vbc-apis/user-api/overview) APIs to create fully customized call experiences for your customers, including:
