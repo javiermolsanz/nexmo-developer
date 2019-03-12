@@ -9,9 +9,9 @@ This example shows you how to use the Account API to retrieve details about a sp
 
 Replace the following placeholders in the example with your own details:
 
-* `$VBC_TOKEN` - a valid token (see [authentication](http://localhost:3000/vonage-business-cloud/vbc-apis/getting-started/authentication))
-* `$VBC_ACCOUNT_ID` - the account number the location is associated with
-* `$VBC_LOCATION_ID` - the location ID you want to retrieve details for
+* `VBC_TOKEN` - a valid token (see [authentication](http://localhost:3000/vonage-business-cloud/vbc-apis/getting-started/authentication))
+* `VBC_ACCOUNT_ID` - the account number the location is associated with
+* `VBC_LOCATION_ID` - the location ID you want to retrieve details for
 
 ```building_blocks
 source: '_examples/vonage-business-cloud/vbc-apis/account-api/retrieve-location'

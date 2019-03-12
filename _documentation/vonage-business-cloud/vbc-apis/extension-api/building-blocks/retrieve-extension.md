@@ -9,9 +9,9 @@ This example shows you how to use the Extension API to retrieve details about a 
 
 Replace the following placeholders in the example with your own details:
 
-* `$VBC_TOKEN` - a valid token (see [authentication](http://localhost:3000/vonage-business-cloud/vbc-apis/getting-started/authentication))
-* `$VBC_ACCOUNT_ID` - the account number the extension is associated with
-* `$VBC_EXTENSION` - the ID of the extension you want to retrieve details for
+* `VBC_TOKEN` - a valid token (see [authentication](http://localhost:3000/vonage-business-cloud/vbc-apis/getting-started/authentication))
+* `VBC_ACCOUNT_ID` - the account number the extension is associated with
+* `VBC_EXTENSION` - the ID of the extension you want to retrieve details for
 
 ```building_blocks
 source: '_examples/vonage-business-cloud/vbc-apis/extension-api/retrieve-extension'

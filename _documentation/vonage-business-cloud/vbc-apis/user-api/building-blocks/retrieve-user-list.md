@@ -9,8 +9,8 @@ This example shows you how to use the User API to retrieve a list of users assoc
 
 Replace the following placeholders in the example with your own details:
 
-* `$VBC_TOKEN` - a valid token (see [authentication](http://localhost:3000/vonage-business-cloud/vbc-apis/getting-started/authentication))
-* `$VBC_ACCOUNT_ID` - the account number the users are associated with
+* `VBC_TOKEN` - a valid token (see [authentication](http://localhost:3000/vonage-business-cloud/vbc-apis/getting-started/authentication))
+* `VBC_ACCOUNT_ID` - the account number the users are associated with
 
 ```building_blocks
 source: '_examples/vonage-business-cloud/vbc-apis/user-api/retrieve-user-list'

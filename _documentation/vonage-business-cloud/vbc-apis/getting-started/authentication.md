@@ -34,10 +34,10 @@ The following example shows you how to authenticate using the [password grant ty
 
 Replace the following placeholders in the example with your own values:
 
-* `$VBC_USERNAME` - Your Vonage Business Cloud user name
-* `$VBC_PASSWORD` - Your Vonage Business Cloud password
-* `$VBC_CLIENT_ID` - The Consumer Key that you generated in step 5 above
-* `$VBC_CLIENT_SECRET` - The Consumer Secret that you generated in step 5 above
+* `VBC_USERNAME` - Your Vonage Business Cloud user name
+* `VBC_PASSWORD` - Your Vonage Business Cloud password
+* `VBC_CLIENT_ID` - The Consumer Key that you generated in step 5 above
+* `VBC_CLIENT_SECRET` - The Consumer Secret that you generated in step 5 above
 
 ```building_blocks
 source: '_examples/vonage-business-cloud/vbc-apis/general/authenticate-password'
