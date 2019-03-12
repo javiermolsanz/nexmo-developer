@@ -3,7 +3,7 @@ module AdminApi
     respond_to :json
 
     def index
-      #   return unless authenticate
+      return unless authenticate
       @events = UsageBuildingBlockEvent.all.group(:block, :language, :section, :action).count(:action)
 
       if params[:created_after] || params[:created_before]
