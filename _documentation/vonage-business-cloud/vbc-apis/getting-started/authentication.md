@@ -20,19 +20,21 @@ Once you have [created your application](/vonage-business-cloud/vbc-apis/getting
 
     ![Screenshot showing the Production Keys tab of the My Applications page](/assets/images/vbc/production-keys.png)
 
-    > Note the list of Grant Types. The [grant type](https://oauth.net/2/grant-types/) is the method OAuth uses to generate an access token.
+    > Note that the default grant type is `Code`. The [grant type](https://oauth.net/2/grant-types/) is the method OAuth uses to generate an access token. When you create a production application you will typically want to use this method to authenticate requests. The `Refresh Token` option will create a new token when the current one expires.
 
 5. In the "Callback URL" field, enter a valid callback URL that your application will use to receive the generated token. If you haven't created your application yet, enter `http://localhost` for now and remember to enter the correct URL when you are ready to test it.
 
 6. Click the "Generate Keys" button. This generates the "Consumer Key" and "Consumer Secret" that your application will use to request a token.
 
-7. Look at the "Endpoint Examples" and "Generating Access Tokens" samples to learn how to request the authentication token in your application:
+7. Look at the "Endpoint Examples" and "Generating Access Tokens" samples to learn how to request the authentication code and exchange it for an access token:
 
 ![Screenshot showing endpoint and generating access token examples](/assets/images/vbc/examples.png)
 
+> In production, you should use the [authorization_code](https://oauth.net/2/grant-types/authorization-code/) grant type (`Code`) and this is the only option shown in the My Applications tab at [developer.vonage.com](https://developer.vonage.com/store). The `Code` grant type requires your application to implement a valid callback URL to retrieve the authorization code from the Vonage servers and exchange it for a token. See the Endpoint examples in the My Applications tab to learn how to create the authorization and token requests.
+
 ## Authenticating with the password grant type
 
-The following example shows you how to authenticate using the [password grant type](https://oauth.net/2/grant-types/password).
+All the building blocks in the VBC API documentation use the [password grant type](https://oauth.net/2/grant-types/password) instead of the recommended `authorization_code` to make them easy to run. This grant type does not require you to implement a callback URL. Instead, you provide your VBC user name and password to request a token.
 
 Replace the following placeholders in the example with your own values:
 
