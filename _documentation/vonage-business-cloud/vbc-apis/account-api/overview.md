@@ -12,6 +12,8 @@ Using the Account API in your applications, you can:
 * Get information about a specific location associated with an account
 * List all the locations for an account
 
+> Locations are the physical addresses of each telephone on your account.
+
 ## Getting started
 
 To use the Account API you must:
