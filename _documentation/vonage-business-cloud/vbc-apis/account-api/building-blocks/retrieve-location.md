@@ -17,7 +17,7 @@ Replace the following placeholders in the example with your own details:
 source: '_examples/vonage-business-cloud/vbc-apis/account-api/retrieve-location'
 ```
 
-The response is a JSON object containing details about the location. See the [API documentation](/api/vonage-business-cloud/account#AccountCtrl.getLocationByID) for descriptions of the fields in the response.
+The response is a JSON object containing details about the location. See the [API documentation](/api/vonage-business-cloud/account?expandResponses=true#AccountCtrl.getLocationByID) for descriptions of the fields in the response.
 
 ```json
 {

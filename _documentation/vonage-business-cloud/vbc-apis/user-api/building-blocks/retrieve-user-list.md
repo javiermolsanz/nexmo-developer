@@ -16,7 +16,7 @@ Replace the following placeholders in the example with your own details:
 source: '_examples/vonage-business-cloud/vbc-apis/user-api/retrieve-user-list'
 ```
 
-The response is a JSON object containing an array of user objects. See the [API documentation](/api/vonage-business-cloud/user#UserCtrl.getUserByID) for descriptions of the fields in the response.
+The response is a JSON object containing an array of user objects. See the [API documentation](/api/vonage-business-cloud/user?expandResponses=true#UserCtrl.getUserByID) for descriptions of the fields in the response.
 
 ```json
 {

@@ -17,7 +17,7 @@ Replace the following placeholders in the example with your own details:
 source: '_examples/vonage-business-cloud/vbc-apis/extension-api/retrieve-extension'
 ```
 
-The response is a JSON object containing details about the extension. See the [API documentation](/api/vonage-business-cloud/extension#ExtensionCtrl.getAccountExtensionByID) for descriptions of the fields in the response.
+The response is a JSON object containing details about the extension. See the [API documentation](/api/vonage-business-cloud/extension?expandResponses=true#ExtensionCtrl.getAccountExtensionByID) for descriptions of the fields in the response.
 
 ```json
 {
